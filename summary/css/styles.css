@@ -5,18 +5,62 @@
 body{
     width: 100%;
     position: relative;
+    background:  hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+
 }
 #card{
+    background-color:  white;
     width:300px;
-    height: 450px;
-    background-color: blue;
+    height: 450px;    
     border-radius: 10px;
     position:absolute;
     right: 40%;
     margin-top: 75px;
 }
-#card img{
+#card #img1{
     width: 300px;
     height: 35%;
     border-radius: 10px 10px 0px 0px;
+    margin-bottom:20px;
+}
+#card article{
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+}
+#card article #title{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#card article #paragraph{
+    font-size: 10px;
+    color:#8f8f8f;
+    margin-bottom:10px;
+}
+#card #box{
+    width:75%;
+    height:70px;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 97%);
+    position:relative;
+    left:12%;
+    display:flex;
+}
+#card #box #img2{
+    margin:20px 10px;
+    width:30px;
+    height:30px;
+}
+#card #box #para{
+    margin:20px 5px;
+    font-size:12px;
+    margin-right:55px;
+    color:#8f8f8f;;
+}
+#card #box strong{
+    color:black;
+}
+#card #box a{
+    line-height: 70px;
+    font-size:12px;
 }
